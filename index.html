@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h1 {
+        color: mediumslateblue;
+    }
+    .link:link{
+        color: brown;
+    }
+    .link:visited {
+        color: plum;
+    }
+    .link:hover{
+        color: red;
+        }
+    .link:active{
+        color: black;
+    }
+    .shape:hover {
+        background-color: blueviolet;
+        color: azure;
+        height: 40px;
+        width: 40px;
+    }
+    .text:focus{
+        background-color: skyblue;
+    }
+    a.link:hover{
+        color: black;
+        font-size: 28px;
+    }
+    p {
+       display: none;
+       background-color: yellowgreen;
+       padding: 20px;
+    }
+    div#show:hover p {
+        display: block;
+    }
+</style>
+<body>
+    <h1>Pseudo-classes</h1>
+    <a href="https://fontawesome.com/" class="link">fontawesome </a>
+    <div class="shape">Mailaa</div>
+    <input type="text" class="text">
+    <div id="show">Hover over this div to show p element</div>
+    <p>Myself Syeda Maila Mansoor.</p>
+</body>
+</html>
